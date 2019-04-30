@@ -27,9 +27,9 @@ html, body {
   min-width: 10%;
 }
 .second-nav {
-  text-align: center;
+  /* text-align: center;
   left: 10%;
-  top: 7px;
+  top: 7px; */
 }
 .input-box {
   margin: auto;
@@ -128,11 +128,9 @@ html, body {
     min-width: 14%;
   }
   .second-nav {
-    position: absolute;
-    padding: 0;
-    left: 1%;
-    top: 7px;
-    width: 100%;
+    position: relative;
+    left: 26%;
+    padding-top: 8px;
   }
   .input-box {
     margin: auto;
@@ -207,11 +205,9 @@ html, body {
     min-width: 14%;
   }
   .second-nav {
-    position: absolute;
-    padding: 0;
-    left: 1%;
-    top: 7px;
-    width: 100%;
+    position: relative;
+    left: 26%;
+    padding-top: 8px;
   }
   .input-box {
     margin: auto;
@@ -289,11 +285,9 @@ html, body {
     min-width: 20%;
   }
   .second-nav {
-    position: absolute;
-    padding: 0;
-    left: 1%;
-    top: 7px;
-    width: 100%;
+    position: relative;
+    left: 23%;
+    padding-top: 8px;
   }
   .input-box {
     margin: auto;
@@ -387,7 +381,7 @@ html, body {
   ##Screen = B/w 768px to 1024px
   ********These are for tablets with resolution
 */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
   #aap-tablet {
     display: block;
     margin-top: 8%;
@@ -422,6 +416,11 @@ html, body {
     top: 7px;
     left: 12px;
     min-width: 20%;
+  }
+  .second-nav {
+    position: relative;
+    left: 23%;
+    padding-top: 8px;
   }
   .input-box {
     margin: auto;
@@ -496,12 +495,9 @@ html, body {
     width: 13%;
   }
   .second-nav {
-    position: absolute;
-    /* left: 19%; */
-    /* padding-top: 4px; */
-    height: 42px;
-    top: 7px;
-    min-width: 105%
+    position: relative;
+    left: 18%;
+    padding-top: 8px;
   }
   .input-box {
     margin: auto;
@@ -608,12 +604,9 @@ html, body {
     width: 13%;
   }
   .second-nav {
-    position: absolute;
-    /* left: 19%; */
-    /* padding-top: 4px; */
-    height: 42px;
-    top: 7px;
-    min-width: 105%
+    position: relative;
+    left: 18%;
+    padding-top: 8px;
   }
   .input-box {
     margin: auto;
