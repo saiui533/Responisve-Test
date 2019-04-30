@@ -89,10 +89,10 @@ html, body {
   background-color: #D822EE;
 }
 .block-four-color {
-  background-color: blue;
+  background-color: #5DBDF4;
 }
 .color-container {
-  height: 150px;
+  height: 175px;
   text-align: center;
   color: white;
   font-size: 18px;
@@ -143,6 +143,8 @@ html, body {
   }
   .customer-background {
     min-height: 281px;
+    padding-top: 14px;
+    padding-left: 5px;
   }
   #aap-mobile-phones {
     display: none;
@@ -232,6 +234,7 @@ html, body {
   .img-container {
     right: 0px;
     left: 64%;
+    padding-top: 12px;
   }
   #aap-mobile-phones {
     display: none;
